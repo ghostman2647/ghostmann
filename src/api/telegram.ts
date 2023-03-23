@@ -144,9 +144,7 @@ export class Telegram {
             { command: "rewards_all", description: "rewards_all" },
             { command: "shield", description: "shield" },
             { command: "stats", description: "stats" },
-            { command: "start_calc_farm", description: "start_calc_farm" },
             { command: "config", description: "config" },
-            { command: "stop_calc_farm", description: "stop_calc_farm" },
             {
                command: "current_calc_farm",
                description: "current_calc_farm",
@@ -164,6 +162,9 @@ export class Telegram {
             { command: "create_material", description: "create_material" },
             { command: "remove_database", description: "remove_database" },
             { command: "change_config", description: "change_config" },
+            { command: "start_calc_farm", description: "start_calc_farm" },
+            { command: "stop_calc_farm", description: "stop_calc_farm" },
+
          ];
          await this.telegraf.telegram.setMyCommands(commands, {
             language_code: "en",
