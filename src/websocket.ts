@@ -1,7 +1,7 @@
 import WS from "ws";
 
 declare global {
-   // eslint-disable-next-line no-var
+   eslint-disable-next-line no-var
    //var WebSocket: WS;
 }
 
